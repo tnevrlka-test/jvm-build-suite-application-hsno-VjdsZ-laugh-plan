@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-nfra
     app.kubernetes.io/part-of: jvm-build-suite-application-hsno
-  name: jvm-build-suite-componenticqc
+  name: jvm-build-suite-componentejoe
   namespace: jvm-build-dexs-tenant
 spec:
   port:

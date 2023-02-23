@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-nfra
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:5d9ec790d9ea49e298f80faccb9ec435
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:fd9efda4cde82782ae33cb11773fb8ebe4d621b000c08096a331c08ad1ff12ca
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
