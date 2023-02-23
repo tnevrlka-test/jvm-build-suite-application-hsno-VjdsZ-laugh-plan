@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-nfra
+  namespace: jvm-build-dexs-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:fd9efda4cde82782ae33cb11773fb8ebe4d621b000c08096a331c08ad1ff12ca
+        name: container-image
+        resources: {}
+status: {}
